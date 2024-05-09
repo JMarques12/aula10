@@ -18,6 +18,21 @@ A ideia básica do padrão Visitor é separar a lógica das operações a serem 
 
 ![image info](./visitor.jpg)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Hierarquia de classes das formas geométricas
 class Shape {
     accept(visitor) {
@@ -77,6 +92,14 @@ circle.accept(perimeterCalculator);
 
 square.accept(areaCalculator);
 square.accept(perimeterCalculator);
+
+
+
+
+
+
+
+
 
 
 Temos uma hierarquia de classes Shape, Circle e Square.
