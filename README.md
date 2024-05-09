@@ -93,16 +93,13 @@ square.accept(areaCalculator);
 square.accept(perimeterCalculator);
 ```
 
-
-
-
-
-
-
-
-
 Temos uma hierarquia de classes Shape, Circle e Square.
+
 Criamos dois Visitors, AreaCalculatorVisitor e PerimeterCalculatorVisitor, para calcular a área e o perímetro das formas geométricas.
+
 Cada Visitor implementa um método visit(shape) que calcula a área ou o perímetro, dependendo do tipo de forma geométrica.
+
 Cada forma geométrica possui um método accept(visitor) que aceita um Visitor e o utiliza para calcular a área ou o perímetro.
-Ao executar este código, ele calculará e exibirá a área e o perímetro de um círculo e de um quadrado. Este exemplo demonstra como o padrão Visitor permite adicionar novas operações (como calcular área ou perímetro) sem modificar as classes existentes (formas geométricas).
+
+Ao executar este código, ele calculará e exibirá a área e o perímetro de um círculo e de um quadrado. Este exemplo demonstra como o padrão Visitor permite 
+adicionar novas operações (como calcular área ou perímetro) sem modificar as classes existentes (formas geométricas).
