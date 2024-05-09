@@ -32,7 +32,7 @@ A ideia básica do padrão Visitor é separar a lógica das operações a serem 
 
 
 
-
+```JavaScript
 // Hierarquia de classes das formas geométricas
 class Shape {
     accept(visitor) {
@@ -92,7 +92,7 @@ circle.accept(perimeterCalculator);
 
 square.accept(areaCalculator);
 square.accept(perimeterCalculator);
-
+```
 
 
 
