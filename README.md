@@ -93,7 +93,7 @@ Ao executar este código, ele calculará e exibirá a área e o perímetro de um
 adicionar novas operações (como calcular área ou perímetro) sem modificar as classes existentes (formas geométricas).
 
 
-# Exemplo Casual um pouco mais claro do que é o visitor
+## Exemplo Casual um pouco mais claro do que é o visitor
 
 Imagine que você está organizando uma festa e tem diferentes tipos de convidados: amigos que adoram dançar, outros que preferem jogar videogame e alguns que só querem conversar. Cada tipo de convidado tem seus próprios interesses e atividades favoritas.
 
