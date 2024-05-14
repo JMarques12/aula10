@@ -103,3 +103,13 @@ Cada forma geométrica possui um método accept(visitor) que aceita um Visitor e
 
 Ao executar este código, ele calculará e exibirá a área e o perímetro de um círculo e de um quadrado. Este exemplo demonstra como o padrão Visitor permite 
 adicionar novas operações (como calcular área ou perímetro) sem modificar as classes existentes (formas geométricas).
+
+
+Imagine que você está organizando uma festa e tem diferentes tipos de convidados: amigos que adoram dançar, outros que preferem jogar videogame e alguns que só querem conversar. Cada tipo de convidado tem seus próprios interesses e atividades favoritas.
+
+Os tipos de convidados são como os elementos do documento (livros, artigos, vídeos).
+As diferentes atividades na festa (dançar, jogar videogame, conversar) são como as operações que queremos realizar nos elementos.
+O padrão Visitor é como um guia da festa que visita cada convidado para ver o que eles querem fazer.
+Então, quando a festa começa, o guia da festa visita cada convidado e pergunta o que eles gostariam de fazer. Com base nas preferências de cada convidado, o guia decide qual atividade é a melhor para a festa toda.
+
+Isso permite que a festa seja divertida para todos, já que cada convidado pode fazer o que gosta, sem precisar mudar quem são os convidados (elementos) ou o guia da festa (visitante). Eles apenas seguem um processo onde cada convidado (elemento) é visitado pelo guia da festa (visitante) para decidir o que fazer.
