@@ -28,9 +28,6 @@ A ideia básica do padrão Visitor é separar a lógica das operações a serem 
 
 
 
-
-
-
 ```JavaScript
 // Hierarquia de classes das formas geométricas
 class Shape {
@@ -103,6 +100,14 @@ Cada forma geométrica possui um método accept(visitor) que aceita um Visitor e
 
 Ao executar este código, ele calculará e exibirá a área e o perímetro de um círculo e de um quadrado. Este exemplo demonstra como o padrão Visitor permite 
 adicionar novas operações (como calcular área ou perímetro) sem modificar as classes existentes (formas geométricas).
+
+
+
+
+
+
+
+
 
 
 Imagine que você está organizando uma festa e tem diferentes tipos de convidados: amigos que adoram dançar, outros que preferem jogar videogame e alguns que só querem conversar. Cada tipo de convidado tem seus próprios interesses e atividades favoritas.
